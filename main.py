@@ -23,4 +23,6 @@ place = random.choice(places).strip()
 player = random.choice(players).strip()
 enemy = random.choice(enemies).strip()
 
+print('\n')
 print(f'A {genre} game in {place}, where you play as a' + ('n ' if player[0] in vowels else ' ') + f'{player} against ' + ('an ' if enemy[0] in vowels else 'a ') + enemy + '.')
+print('\n')
